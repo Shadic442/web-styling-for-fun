@@ -1,0 +1,9 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/Jersey_10/Jersey10-Regular.ttf);
+}
+p#pressstart {
+  font-family: myFirstFont;
+  font-size: 10vh;
+  text-align: center;
+}
