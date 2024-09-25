@@ -3,26 +3,39 @@
   font-family: myFirstFont;
   src: url(fonts/Jersey_10/Jersey10-Regular.ttf);
 }
+/* strech the background gradiant of the whole site background*/
+html {
+  height: 100%;
+}
+
 body {
-  background-color: bisque;
+  /* strech the background gradiant of the whole site background*/
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  /* background-color: bisque; */
+  background: linear-gradient(black, white);
 }
 /*don't space after the element of the id or else it won't apply the font*/
 p#pressstart {
   font-family: myFirstFont;
   font-size: 10vh;
   text-align: center;
-  background: linear-gradient(black, white);
+  color: white;
+  /* background: linear-gradient(black, white); */
 
   /* Set the background size and repeat properties. */
-  background-size: 100%;
-  background-repeat: repeat;
+  /* background-size: 100%;
+  background-repeat: repeat; */
 
   /* Use the text as a mask for the background. */
   /* This will show the gradient as a text color rather than element bg. */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 /*drop shadow for press start text*/
 .classWithShadow {
-  text-shadow: 2px 2px #000000;
+  text-shadow: 5px 5px #000000;
 }
