@@ -16,3 +16,13 @@ $(document).ready(function () {
     $(this).toggleClass("classWithShadow");
   });
 });
+
+/* variable that stores the sound effect for when we click on the text*/
+var snd = new Audio("sounds\\discord-notification.mp3");
+/* function that plays the sound effect whitout delay */
+function playsound() {
+  /* plays sound effect */
+  snd.play();
+  /* remove delay so you can spam */
+  snd.currentTime=0;
+}
