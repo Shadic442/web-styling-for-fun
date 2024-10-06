@@ -14,3 +14,4 @@
 -- html css slide out animation
 - [text](https://www.w3schools.com/cssref/css3_pr_animation-direction.php)
 -- w3-animate-bottom reverse
+- [text](https://stackoverflow.com/questions/5505477/toggle-multiple-element-classes-with-jquery)
