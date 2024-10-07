@@ -15,6 +15,15 @@ $(document).ready(function () {
   $("#pressstart").on("mouseup", function () {
     $(this).toggleClass("classWithShadow");
   });
+
+  // need give a position to the element for the animation to work
+  $("#pressstart").on("click", function () {
+    $("p").animate({top: "100px"});
+      // .addClass("w3-center w3-animate-bottom")
+      // .css("animation-direction", "alternate-reverse");
+    //$("#YourElementID");
+    console.log("animation");
+  });
 });
 
 /* variable that stores the sound effect for when we click on the text*/
@@ -24,5 +33,5 @@ function playsound() {
   /* plays sound effect */
   snd.play();
   /* remove delay so you can spam */
-  snd.currentTime=0;
+  snd.currentTime = 0;
 }
