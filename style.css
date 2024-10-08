@@ -10,18 +10,18 @@ html {
 
 body {
   /* strech the background gradiant of the whole site background*/
-  height: 100%;
-  margin: 0;
+  /* height: 100%;
+  margin: 0; */
   background-repeat: no-repeat;
   background-attachment: fixed;
-
+  background-size: 100% 100%;
   /* background-color: bisque; */
   background: linear-gradient(black, white);
 }
 /*don't space after the element of the id or else it won't apply the font*/
 p#pressstart {
   font-family: myFirstFont;
-  font-size: 10vh;
+  font-size: 10rem;
   text-align: center;
   color: white;
   /* background: linear-gradient(black, white); */
@@ -35,6 +35,12 @@ p#pressstart {
   /* -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
 }
+
+/* added a possition to press start text to make the animation work */
+.psPosition {
+  position: relative;
+}
+
 /*drop shadow for press start text*/
 .classWithShadow {
   text-shadow: 5px 5px #000000;

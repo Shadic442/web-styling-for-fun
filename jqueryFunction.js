@@ -18,7 +18,7 @@ $(document).ready(function () {
 
   // need give a position to the element for the animation to work
   $("#pressstart").on("click", function () {
-    $("p").animate({top: "100px"});
+    $("p").animate({top: "900px"});
       // .addClass("w3-center w3-animate-bottom")
       // .css("animation-direction", "alternate-reverse");
     //$("#YourElementID");
